@@ -66,10 +66,6 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: ;
-}
-
-.item {
 }
 
 @media all and (min-width: 768px) {
