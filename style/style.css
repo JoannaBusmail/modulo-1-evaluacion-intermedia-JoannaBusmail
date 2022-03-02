@@ -46,8 +46,8 @@ ul {
 }
 
 .links {
-  margin-inline: 20px;
   text-decoration: none;
+  color: var(--color-font-menu);
 }
 
 .container_main {
@@ -55,8 +55,12 @@ ul {
   background-color: var(--color-background-main);
   font-family: var(--font-family);
   color: var(--color-font_main);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: ;
 }
 
 .item {
-  position: relative;
 }
