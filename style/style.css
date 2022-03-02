@@ -80,4 +80,9 @@ ul {
   .container_main {
     font-size: 40px;
   }
+
+  .container_logo {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
