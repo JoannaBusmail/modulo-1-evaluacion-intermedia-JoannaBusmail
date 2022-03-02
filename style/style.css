@@ -17,3 +17,15 @@ ul {
   --color-background-main: #3cdbc0;
   --color-font_main: #ffffff;
 }
+
+.container_logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo_header {
+  width: 155px;
+  margin: 10px auto;
+}
