@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --font-family: "Rubik", sans-serif;
+  --font-size-menu: 16px;
+  --font-size-main: 30px;
+
+  --color-font-menu: #4a4a4a;
+  --color-background-main: #3cdbc0;
+  --color-font_main: #ffffff;
+}
