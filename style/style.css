@@ -18,6 +18,10 @@ ul {
   --color-font_main: #ffffff;
 }
 
+.container_header {
+  position: sticky;
+  top: 0;
+}
 .container_logo {
   width: 100%;
   display: flex;
@@ -28,4 +32,35 @@ ul {
 .logo_header {
   width: 155px;
   margin: 10px auto;
+}
+
+.container_menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-family: var(--font-family);
+  color: var(--color-font-menu);
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
+.links {
+  margin-inline: 20px;
+  text-decoration: none;
+}
+
+.container_main {
+  height: 100vh;
+  background-color: var(--color-background-main);
+  font-family: var(--font-family);
+  color: var(--color-font_main);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  position: relative;
 }
