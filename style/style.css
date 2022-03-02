@@ -44,7 +44,6 @@ ul {
   color: var(--color-font-menu);
   margin-top: 10px;
   margin-bottom: 13px;
-  margin-right: 20px;
 }
 
 .links_blog,
@@ -72,6 +71,7 @@ ul {
   .container_menu {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
   }
   .container_main {
     font-size: 40px;
@@ -80,5 +80,6 @@ ul {
   .container_logo {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
   }
 }
