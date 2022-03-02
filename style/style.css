@@ -40,20 +40,27 @@ ul {
   justify-content: space-around;
   list-style: none;
   font-family: var(--font-family);
+  font-size: var(--font-size-menu);
   color: var(--color-font-menu);
   margin-top: 10px;
   margin-bottom: 13px;
+  margin-right: 20px;
 }
 
-.links {
+.links_blog,
+.links_contact {
   text-decoration: none;
   color: var(--color-font-menu);
 }
 
+.links_blog {
+  margin-right: 20px;
+}
 .container_main {
   height: 100vh;
   background-color: var(--color-background-main);
   font-family: var(--font-family);
+  font-size: var(--font-size-main);
   color: var(--color-font_main);
   display: flex;
   flex-direction: column;
@@ -65,9 +72,12 @@ ul {
 .item {
 }
 
-@media all and (min-width 768px) {
+@media all and (min-width: 768px) {
   .container_menu {
     display: flex;
     justify-content: flex-end;
+  }
+  .container_main {
+    font-size: 40px;
   }
 }
