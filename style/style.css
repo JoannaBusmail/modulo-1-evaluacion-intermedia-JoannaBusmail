@@ -9,7 +9,7 @@ ul {
 }
 
 :root {
-  --font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   --font-size-menu: 16px;
   --font-size-main: 30px;
 
@@ -19,56 +19,59 @@ ul {
 }
 
 .container_header {
-  position: fixed;
-  top: 0;
   width: 100%;
-  background-color: #ffffff;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--color-font_main);
 }
 
-.container_logo {
+.logo {
   width: 155px;
   margin: 10px auto;
 }
-.title {
-  text-decoration: none;
-  color: var(--color-font-menu);
-  text-transform: uppercase;
-  font-family: var(--font-family);
+.container_menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
   font-size: var(--font-size-menu);
   color: var(--color-font-menu);
-  padding: 10px;
   margin-bottom: 13px;
 }
 
-.container_main {
+.title {
+  text-decoration: none;
+  color: var(--color-font-menu);
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.container_text {
   height: 100vh;
   background-color: var(--color-background-main);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-transform: capitalize;
 }
 .text {
-  font-family: var(--font-family);
-  font-size: var(--font-size-main);
-  color: var(--color-font_main);
-  text-transform: capitalize;
+  width: 200px;
   text-align: center;
+  color: var(--color-font_main);
+  font-size: var(--font-size-main);
 }
+
 @media all and (min-width: 768px) {
-  .container_menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  .container_header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px
   }
-  .container_main {
+ 
+  .text {
     font-size: 40px;
   }
 
-  .container_logo {
-  }
-}
